@@ -1,0 +1,25 @@
+2026-06-12 23:48:40,991 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-12 23:48:41,361 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-06-12 23:48:41,361 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-06-13 00:02:21,480 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:02:22,189 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-06-13 00:02:22,190 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-06-13 00:16:23,049 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:16:24,119 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:16:24,119 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:23:09,784 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:23:10,648 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:23:10,648 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:50:14,239 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:50:14,414 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:50:14,414 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:56:47,939 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:56:48,131 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:56:48,131 - ERROR - APIError(code=-2019): Margin is insufficient.
+2026-06-13 00:57:55,900 - INFO - MARKET ORDER | BUY BTCUSDT Qty=0.001
+2026-06-13 00:57:56,129 - INFO - {'orderId': 15042318039, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd55169b0ee979c2b14af40', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781292476090}
+2026-06-13 01:01:04,351 - INFO - STOP ORDER | BUY BTCUSDT Qty=0.001 Price=95000.0 Stop=96000.0
+2026-06-13 01:01:04,807 - INFO - {'algoId': 1000000104089869, 'clientAlgoId': 'x-Cb7ytekJ8b07a0716f5d6c3565cba8', 'algoType': 'CONDITIONAL', 'orderType': 'STOP', 'symbol': 'BTCUSDT', 'side': 'BUY', 'positionSide': 'BOTH', 'timeInForce': 'GTC', 'quantity': '0.0010', 'algoStatus': 'NEW', 'triggerPrice': '96000.00', 'price': '95000.00', 'icebergQuantity': None, 'selfTradePreventionMode': 'EXPIRE_MAKER', 'workingType': 'CONTRACT_PRICE', 'priceMatch': 'NONE', 'closePosition': False, 'priceProtect': False, 'reduceOnly': False, 'createTime': 1781292664538, 'updateTime': 1781292664543, 'triggerTime': 0, 'goodTillDate': 0}
+2026-06-13 01:01:59,477 - ERROR - HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host"))
+2026-06-13 01:02:10,029 - INFO - LIMIT ORDER | SELL BTCUSDT Qty=0.001 Price=150000.0
+2026-06-13 01:02:10,214 - INFO - {'orderId': 15042542998, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4260417901424581d307b2', 'price': '150000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781292730211}
