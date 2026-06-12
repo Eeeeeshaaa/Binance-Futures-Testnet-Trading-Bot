@@ -6,16 +6,17 @@ A Python-based trading bot for Binance Futures Testnet (USDT-M) that supports Ma
 
 The application provides:
 
--Market Order Placement
--Limit Order Placement
--Stop Order Placement (Bonus)
--BUY and SELL support
--Input validation
--Logging of requests, responses, and errors
--Structured and reusable code architecture
--Exception handling for API and network failures
+1. Market Order Placement
+2. Limit Order Placement
+3. Stop Order Placement (Bonus)
+4. BUY and SELL support
+5. Input validation
+6. Logging of requests, responses, and errors
+7. Sructured and reusable code architecture
+8. Exception handling for API and network failures
 
 Project Structure
+```text
 trading_bot/
 │
 ├── bot/
@@ -31,7 +32,8 @@ trading_bot/
 ├── main.py
 ├── .env
 ├── requirements.txt
-└── README.md
+
+```
 
 Requirements
 -Python 3.10+
